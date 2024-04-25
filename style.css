@@ -1,0 +1,61 @@
+/* Update your style.css file with the following styles */
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  background-color: #f0f0f0;
+  color: #444;
+  line-height: 1.6;
+  overflow-y: scroll; /* Enable vertical scrolling */
+}
+
+.container {
+  width: 30rem;
+  margin: auto auto;
+  padding: 20px;
+  background-color: #f0f0f0;
+  border-radius: 20px;
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.1),
+    -10px -10px 20px rgba(255, 255, 255, 0.5);
+  position: absolute;
+}
+
+.controls {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.controls button {
+  padding: 15px 30px;
+  margin: 0 10px;
+  background-color: #f0f0f0;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1),
+    -5px -5px 10px rgba(255, 255, 255, 0.5);
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.controls button:hover {
+  transform: translateY(-2px);
+}
+
+#description-container {
+  text-align: center;
+  margin-top: 20px;
+}
+
+#description-text {
+  font-size: 1.2rem;
+  color: #333;
+  line-height: 1.6;
+  margin: 0;
+  padding: 20px;
+  background-color: #f0f0f0;
+  border-radius: 20px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1),
+    -5px -5px 10px rgba(255, 255, 255, 0.5);
+}
